@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>loginform</title>
+<style>
+    body{
+        background-color: black;
+        background-image: url(https://www.sixt.com/magazine/wp-content/uploads//sites/6/2022/04/Bugatti-Bolide-Hypercar-resize-1024x683.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    div{
+        width:30%;
+       
+        margin-left: 40%;
+        font-size:xx-large;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        color: white;
+        box-shadow: -20px -20px 10px  rgb(9, 8, 7);
+        }
+        input{
+            width:300px;
+            height:40px;
+            border:3px;
+            border-radius:50px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+        } 
+        button{
+            width:150px;
+            height:50px;
+            background-color: burlywood;
+            color: rgb(9, 8, 7);
+            border-radius: 20px;
+            font-size: large;
+        }
+        td{
+            padding-bottom: 30px;
+          }
+       input::placeholder{
+            font-size: medium;
+            color: black;
+        }
+ </style>
+</head>
+<body>
+    <div><h1>Welcome </h1>
+    <form >
+    <table>
+    <tr>
+    <td><label for="na">Name</label></td>
+    <td><input type="text" id="na"placeholder="Enter name here"></td>
+    </tr>
+    <tr>
+    <td><label for="nu">Number</label></td>
+    <td><input type="number"id="nu"placeholder="Enter your number"></td>
+    </tr>
+    <tr>
+    <td><label for="em">email</label> </td>
+    <td><input type="email"id="em"placeholder= "Enter valid Email id"></td>
+    </tr>
+    <tr>
+    <td><label for="pa">password</label></td>
+    <td><input type="password" id="pa"placeholder="Enter your password"></td>
+    </tr> 
+    <tr>
+    <td colspan="2" style="text-align: center;">
+    <button>login</button>
+    </td>
+    </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>
